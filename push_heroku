@@ -1,2 +1,21 @@
-1. create herokur
+di package.json ditambah
+
+dicek:
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+
+ditambah:
+"engines":{
+    "node":"10.15.3"
+}
+
+-----konfigurasi awal heroku---
+1. Install heroku CLI lalu restart PC
+2. heroku login
+3. heroku keys:add
+
+-----untuk push ke heroku-----
+1. heroku create (sekali)
 2. git push heroku
