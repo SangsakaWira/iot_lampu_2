@@ -2,6 +2,8 @@
 git config --global user.name "Sangsaka Wira"
 git config --global user.email "sangsakawira@gmail.com"
 
+------Misal belum push sama sekali------
+
 1. Inisiasi "git init"
 
 2. buat file ".gitignore"
@@ -16,3 +18,8 @@ git config --global user.email "sangsakawira@gmail.com"
 contoh:
 git remote add origin https://github.com/SangsakaWira/CobaLagi.git
 git push -u origin master
+
+-------Push Berikutnya--------
+1. git add .
+2. git commit -m "Commit Berikutnya"
+3. git push
