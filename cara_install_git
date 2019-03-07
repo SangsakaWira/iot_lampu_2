@@ -1,0 +1,38 @@
+1. generate key
+ssh-keygen -t rsa -b 4096 -C "sangsakawira@gmail.com"
+
+2. evaluasi
+eval "$(ssh-agent -s)"
+
+3. generate
+ssh-add -K ~/.ssh/id_rsa
+
+4. buat akun github di www.github.com
+
+5. Setting user name dan user email
+git config --global user.name "Sangsaka Wira"
+git config --global user.email "sangsakawira@gmail.com"
+
+6. copy ssh key
+pbcopy < ~/.ssh/id_rsa.pub
+
+Contoh SSH:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC18MJ/
+fbsYkV2Imlq+1cbenHdHMTyQgPn+QIbeERlTKdIwP1bz
+GPlbPg1fa14L4tNT1feLYOUNImE6XWhVokn+860fktOF
+Tp4ni0CVmsuApV/Pus548ecFScqcMgJCa3wYKKaEBXhe
+JMtmspLDZP9dFJ3znu/hpuWOPjjooAIqgdb1s5sLVFWW
+GQefP3hmesr0th2bx3j4Da6do8s78evNCUjmif3HYwbv
+SVuHX6k5FGeYpnCQYHTUdy5M0F00VBuPGQ9RV4xJr83x
+l6fsp8PRCSEfx9PYI5MyfB7EpzMUwmHI2UnjACUm/ovD
+jQ0BO8G6jgNXXDUFzr1Gq18rQJrrEpnLh9EaTyBIBDdx
+X7XGnt3MFB+8xckA7BZJPMm0GqvADaOKosuTLG/UksfS
++J2Xlr1pP4IvJlMTM0EoqYewBoPY8/5rMkoIZ3FssrAK
+oIASav72DkNwrwDgMe7E1pei5RXxfGCF7Dw1SCRMuI6d
+2/8ohgHlK71jC7tUD6tnmGMW07vw9F4Vbn3Rj6UDFw8wq
+vWlBygeLHyDSGVcGWbs162roB7XcaDD6JGDB2UvhB957
+kwMIiXc0b1zgUgePFkMj6go7q+syGZxj/NpMWnHCOt43
+EgHSsAmc/flb0Oq4IGSuuquTO/NjXpCTj7s8XShpj64/
++vvvV0fZShTZ6XuUQ== sangsakawira@google.com
+
+7. Copy ke github

@@ -1,0 +1,10 @@
+###git config (Sekali saja)
+git config --global user.name "Sangsaka Wira"
+git config --global user.email "sangsakawira@gmail.com"
+
+1. Inisiasi
+git init
+
+2. buat ".gitignore"
+
+3. buat ngecek yang "git status"
