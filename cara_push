@@ -2,9 +2,17 @@
 git config --global user.name "Sangsaka Wira"
 git config --global user.email "sangsakawira@gmail.com"
 
-1. Inisiasi
-git init
+1. Inisiasi "git init"
 
-2. buat ".gitignore"
+2. buat file ".gitignore"
 
 3. buat ngecek yang "git status"
+
+4. kita siapkan "git add ."
+
+5. kasih komen dulu ' git commit -m "Pertama upload" '
+
+6. Tahap push terkhir
+contoh:
+git remote add origin https://github.com/SangsakaWira/CobaLagi.git
+git push -u origin master
